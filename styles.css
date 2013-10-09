@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size:13px;
+	font-family: "Lato";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-color: white;
+	text-align:center;
+}
+.module{
+	background-color: whiteSmoke;
+	text-align:left;
+	border-radius:5px;
+	margin:0 auto;
+	padding:10px;
+	width:500px;
+	border:1px solid #C5C5C5
+	
+}
+h1{
+	font-size:30px;
+	color:rgb(131, 131, 131);
+}
+.tcenter{
+	text-align:center;
+}
+
+.teams{
+	text-align:center;
+	
+}
+
+.teams td{
+	padding:5px;
+}
+
+.logo{
+padding:50px;
+}
+.error{
+	padding:10px;
+	text-align:center;
+	background-color:rgb(255, 179, 179);
+	border:1px solid red;
+	margin-top:5px;margin-bottom:15px;
+	color:red;
+}
+
+.success{
+	padding:10px;
+	text-align:center;
+	background-color:rgb(211, 255, 217);
+	border:1px solid rgb(97, 240, 137);
+	margin-top:5px;margin-bottom:15px;
+	color:rgb(0, 143, 6);
+}
+
+input[type="text"]{
+	border:1px solid gray;
+	padding:10px;
+	border-radius:4px;
+}
+input[type="submit"]{
+	border:1px solid gray;
+	padding:10px;
+	min-width:150px;
+	background-color:white;
+	border-radius:3px;
+	
+}
+input[type="submit"]:hover{
+	background-color:whitesmoke;cursor:pointer;
+}
+small{font-size:11px;}
